@@ -58,23 +58,15 @@ You will need the following installed on your machine:
     yarn install
     ```
 
-3.  **Set up Environment Variables:**
-    Create a file named `.env` in the root directory and add your weather API key.
-    
-    *(**Note:** Replace the placeholder key and variable name with the actual ones required by your chosen API.)*
-    ```
-    REACT_APP_WEATHER_API_KEY=YOUR_API_KEY_HERE
-    ```
-
-4.  **Run the application:**
+3.  **Run the application:**
     Start the development server.
     ```bash
-    npm start
+    npm run dev
     # or
-    yarn start
+    yarn run dev
     ```
 
-The app will automatically open in your browser at `http://localhost:3000`.
+The app will automatically open in your browser at `http://localhost:5173`.
 
 ---
 
