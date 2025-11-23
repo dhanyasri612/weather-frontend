@@ -169,7 +169,7 @@ const App = () => {
       style={{
         position: "relative",
         minHeight: "100vh",
-        padding: "2rem",
+        padding: "1rem",
         textAlign: "center",
         
       }}
