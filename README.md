@@ -1,12 +1,86 @@
-# React + Vite
+## ☀️ Weather React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, single-page application built with **React** to provide real-time weather information for any city worldwide. This project focuses on a clean user interface and a smooth user experience.
 
-Currently, two official plugins are available:
+### 🔗 Live Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The application is deployed and available for use:
+**[View Live Site](https://weather-frontend-sigma-ten.vercel.app/)**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+This application offers key functionalities typical of a modern weather app:
+
+* **City Search**: Quickly search for weather data by typing the name of any city.
+* **Current Conditions**: Displays essential current weather details, including temperature, humidity, and wind speed.
+* **Weather Icon Display**: Visual representation of the weather condition (e.g., sun, clouds, rain).
+* **Responsive Design**: Optimized layout for both desktop and mobile devices.
+
+---
+
+## 🛠️ Tech Stack
+
+The entire frontend is built using the following technologies:
+
+| Category | Technology | Description |
+| :--- | :--- | :--- |
+| **Frontend Framework** | **React** | Core library for building the user interface. Utilizes modern functional components and Hooks (`useState`, `useEffect`). |
+| **Styling** | **Standard CSS** | Clean and efficient styling for a modern look. |
+| **Deployment** | **Vercel** | Platform used for continuous deployment and hosting of the live site. |
+| **API** | **[Weather API Name]** | (***Note: Update this with the specific weather API you used, e.g., OpenWeatherMap, Weatherbit, etc.***) |
+
+---
+
+## ⚙️ Local Setup
+
+Follow these steps to get a local copy of the project up and running.
+
+### Prerequisites
+
+You will need the following installed on your machine:
+* Node.js (LTS recommended)
+* npm or yarn
+
+### Installation Steps
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/dhanyasri612/weather-frontend.git](https://github.com/dhanyasri612/weather-frontend.git)
+    cd weather-frontend
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+3.  **Set up Environment Variables:**
+    Create a file named `.env` in the root directory and add your weather API key.
+    
+    *(**Note:** Replace the placeholder key and variable name with the actual ones required by your chosen API.)*
+    ```
+    REACT_APP_WEATHER_API_KEY=YOUR_API_KEY_HERE
+    ```
+
+4.  **Run the application:**
+    Start the development server.
+    ```bash
+    npm start
+    # or
+    yarn start
+    ```
+
+The app will automatically open in your browser at `http://localhost:3000`.
+
+---
+
+## 🚀 Usage
+
+1.  Open the application in your browser.
+2.  Use the search bar at the top of the screen.
+3.  Type the name of a city (e.g., `London`, `Tokyo`, `New York`).
+4.  Press **Enter** or click the **Search** button to view the weather details.
