@@ -13,6 +13,17 @@ import {
   Spinner,
 } from "react-bootstrap";
 import {
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  ResponsiveContainer,
+  Tooltip,
+  Legend,
+} from "recharts";
+
+import {
   WiDaySunny,
   WiCloud,
   WiRain,
@@ -62,14 +73,9 @@ const App = () => {
   };
   const MetaIcon = meta.icon || WiCloud;
 
-  const now = new Date();
-  const hour = now.getHours();
-  const temperature = weatherData?.current?.temperature_2m || 20;
-
   return (
     <div
       style={{
-        position: "relative",
         minHeight: "100vh",
         padding: "2rem",
         textAlign: "center",
@@ -77,7 +83,7 @@ const App = () => {
         color: "#ffffff",
       }}
     >
-      <Container className={`mt-5 p-2`} style={{ background: "transparent" }}>
+      <Container className="mt-5 p-2" style={{ background: "transparent" }}>
         <h1 className="text-center mb-4">Weather Checker</h1>
 
         {/* Search Section */}
@@ -251,6 +257,10 @@ const App = () => {
             </Row>
           </Container>
         )}
+
+        {/* Hourly Forecast, Daily Forecast, Graphs remain unchanged */}
+        {/* ... keep the existing code for tables and charts ... */}
+
       </Container>
 
       <footer
