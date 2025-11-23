@@ -479,7 +479,7 @@ const App = () => {
             flexDirection: "column",
           }}
         >
-          <p style={{ margin: 0 }} className="fs-7 fs-sm-4">
+          <p style={{ margin: 2 }} className="fs-7 fs-sm-4">
             Weather Checker © {new Date().getFullYear()}. All rights reserved.
           </p>
         </footer>
